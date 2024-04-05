@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/linround/learnReact/issues"
   },
-  "homepage": "https://github.com/linround/learnReact#readme"
+  "homepage": "https://github.com/linround/learnReact#readme",
+  "devDependencies": {
+    "husky": "^9.0.11"
+  }
 }
