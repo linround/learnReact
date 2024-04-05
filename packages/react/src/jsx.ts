@@ -31,6 +31,7 @@ export function isValidElement(object: any) {
         object.$$typeof === REACT_ELEMENT_TYPE
     );
 }
+
 export const jsx = (type: ElementType, config: any, ...maybeChildren: any) => {
     let key: Key = null;
     const props: Props = {};
